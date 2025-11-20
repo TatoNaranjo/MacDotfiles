@@ -11,6 +11,7 @@ PATH=~/.console-ninja/.bin:$PATH
 
 alias updateNotes="cd LasNotasDeTato-Quartz/content/ && git pull && cd .. && npx quartz sync --no-pull"
 
+echo "alias config='/usr/bin/git --git-dir=/Users/tatonaranjo/.cfg/ --work-tree=/Users/tatonaranjo'" >> ~/.zshrc
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
